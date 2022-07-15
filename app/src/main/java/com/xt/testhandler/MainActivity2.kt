@@ -44,8 +44,5 @@ class MainActivity2 : AppCompatActivity() {
         override fun onPostExecute(result: String?) {
             Toast.makeText(this@MainActivity2,result,Toast.LENGTH_SHORT).show()
         }
-
     }
-
-
 }
